@@ -1,0 +1,470 @@
+/*шрифты*/
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-family: 'Aref Ruqaa', serif;	
+	font-family: 'Oswald', sans-serif;
+	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Pattaya', sans-serif;
+	font-family: 'Marck Script', cursive;
+	font-family: 'Lobster', cursive;
+	font-size: 14px;
+	background-color: white;
+}
+
+#original{
+	font-size: 24px;
+}
+/*цвета*/
+/*голубой*/
+/*#dbefff;*/
+/*ярко-синий*/
+/*#14bdff;*/
+/*	якро-оранжевый*/
+/*	color: #FF6800;*/
+/*	цвет голубой*/
+/*	color: #00ACED;*/
+
+/*общие классы*/
+.container-center{
+	padding-top: 0;
+    width: 100%;
+	margin: 0 auto;
+/*	max-width: 1366px;*/
+}
+.container{
+
+/*
+	margin-right:10px;
+	margin-left: 10px;
+*/
+}
+i{
+	color: #FF6800;;
+}
+
+/*логотип*/
+.logo{
+	font-size: 40px;
+	font-family: 'Aref Ruqaa', serif;
+/*	якро-оранжевый*/
+	color: #ff0033; 
+}
+
+.tel{
+	font-size: 30px;
+	font-family: 'Pattaya', sans-serif;
+/*	якро-оранжевый*/
+	color: #ff0033; 
+}
+/*телефон активный*/
+a.phone{
+	color:#ff0033;
+}
+a.phone:hover{
+	color:#ff0033;
+	text-decoration:underline;
+}
+.px20{
+	font-size: 20px;
+}
+/*параграфы*/
+p{
+	font-size: 20px;
+}
+.center{
+	text-align: center;
+}
+/*ссылки*/
+a{
+	color: #0057fa;
+	text-decoration:none;
+}
+
+a:hover{
+	color: #0057fa;
+	text-decoration:underline;
+}
+
+.container{
+/*
+	margin-right: 100px;
+	margin-left: 100px;
+*/
+}
+
+.normal_p{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+}
+/***************************************
+***********панель навигации*************
+*****************************************/
+
+nav{
+	position: fixed!important;
+	width: 100%;
+	top: 0;
+}
+
+.logo>div{ 
+position: relative; 
+float: left; 
+} 
+.navbar-toggle .icon-bar { 
+background: red; 
+} 
+.navbar-toggle { 
+margin-top: 20px; 
+}
+nav.nav{
+	font-family: 'Lobster', serif;
+    background-color: white;
+	z-index: 2;
+/*	box-shadow: 0 2px 3px rgba(0,0,0,0.3);*/
+	-webkit-box-shadow: 0px 3px 9px 0px rgba(50, 50, 50, 0.8);
+	-moz-box-shadow:    0px 3px 9px 0px rgba(50, 50, 50, 0.8);
+	box-shadow:         0px 3px 9px 0px rgba(50, 50, 50, 0.8);
+}
+.container1{
+/*
+	margin: 0 auto;
+	padding-right: 0;
+	padding-left:0;
+	margin-right:0;
+	margin-left:0;
+*/
+	background-image: url(../img/main-boys.jpg);
+	background-size:cover;
+	min-height: 750px;
+}
+/*вторая строка текста*/
+.nav-text{
+	font-size: 14px;
+/*	цвет голубой*/
+	color: #00ACED;
+
+}
+/*правый блок навигации*/
+.right{
+	text-align:right;
+	
+}
+/*часы на картинке*/
+img.first_watch{
+	padding-top: 85px;
+	margin-left: 20px;
+}
+
+/*список*/
+li.li {
+  display: inline-block;
+	list-style: none;
+	color: #0057fa;
+	font-size:20px;
+	width: 19%;
+}
+ul.ul{
+	margin-left: 0px;
+    text-align: center;
+	padding-left:0;
+}
+
+li.li:first-child{
+	text-align: left;
+    padding-left: 40px;
+}
+
+li.li:last-child{
+
+	text-align: left;
+	padding-left: -10px;
+}
+
+.empty{
+	height:128px;
+}
+/*основная картинка*/
+#main-image{
+	width: 100%;
+}
+
+.image1{
+	position: relative;
+
+}
+
+.h1{
+	position:absolute;
+	top:0;
+	text-align: center;
+	font-family: 'Pattaya', sans-serif;
+	text-transform:uppercase;
+	color: blue;
+/*
+	border-top: 3px solid white;
+	border-bottom: 3px solid white;
+*/
+}
+.inline{
+	display: inline-block;
+	
+}
+/*позиционируем ряд на картинке*/
+.row1{
+	position: absolute;
+	top:200px;
+	z-index:1;
+}
+
+/*h1*/
+h1{
+	font-family: 'Pattaya', sans-serif;
+	font-size: 38px;
+	color: #0057fa;
+	margin:0;
+}
+.h1_main{
+	padding: 50px 0 20px;
+}
+
+h2{
+	font-size: 28px;
+	color: #0057fa;
+}
+
+.h2_main{
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+.h2_model_name{
+	height: 60px;
+	padding: 0;
+	margin: 0;
+}
+
+.card{
+	min-height: 600px;
+}
+.white{
+	color: white;
+}
+.orange{
+	color: #0057fa; 
+}
+.whatch{
+	position: absolute;
+    top: 450px;
+    margin-left: 28%;
+	
+}
+
+
+/*второй блок*/
+.main{
+	padding-top: 40px;
+/*	background-image: url('../img/background/bg2.png');*/
+	background-color: #dbefff;
+}
+
+/*видео*/
+iframe{
+	align: center;
+}
+
+
+/*works*/
+.works{
+	padding-top: 40px;
+	
+}
+
+.works_whatch{
+	width: 70%;
+}
+
+/*модели*/
+#models{
+	background-color: white;
+}
+
+.grey{
+	background-color: #dbefff;
+}
+
+/*
+.container1{
+	border: 1px dotted black;
+	background-color:#f7f7f7;
+}
+*/
+.price{
+	color: #FF6800;
+	font-size: 20px;
+}
+
+/*Отзывы*/
+#opinion{
+	background-color: white;
+	
+}
+.parents{
+	width: 50%;
+	border-radius: 50%;
+}
+
+.opinion-block{
+	background-image: url('../img/background/bg2.png');
+	border-radius: 30px;
+}
+.parent{
+	position: relative;
+}
+
+/*
+.parents{
+	position: absolute;
+	top: 100px;
+	margin-left: 10%;
+}
+*/
+
+
+.opinion{
+	margin: 15px 0;
+}
+
+#buy{
+	background-image: url('../img/background/bg2.png');
+}
+
+/*************************************************
+*********************Модели*********************
+*************************************************/
+
+.price1{
+	color: #FF6800;
+	font-size: 40px;
+}
+strike{
+	color: #FF6800;
+	margin-right: 15px;
+}
+/*кнопка*/
+.btn-danger{
+	font-size: 20px;
+padding: 15px 60px;
+	margin: 40px;
+}
+
+/*размер квадрата под цвет*/
+.color{
+	height:20px;
+	width: 20px;
+	border: 1px solid #FF6800;
+	display: inline-block;
+	margin: 10px;
+}
+/*цвет квадрата*/
+.model-white{
+	background-color: white;
+}
+/*розовый*/
+.pink{
+	background-color: hotpink;
+}
+/*черный*/
+.black{
+	background-color: black;
+}
+/*зеленый*/
+.green{
+	background-color: lawngreen;
+}
+/*голубой*/
+.blue{
+	background-color: deepskyblue;
+}
+/*темно-синий*/
+.dark-blue{
+	background-color: darkblue;
+}
+.orange-img{
+	background-color: orange;
+}
+
+li{
+	font-size: 20px;
+}
+
+.model{
+	margin-bottom: 30px;
+}
+
+.model-link{
+	margin-left: 40px;
+}
+
+.model-img{
+	margin-top: 40px;
+}
+
+.model-img-margin-top{
+	margin-top: 100px;
+}
+
+.model_image{
+	width:80%;
+}
+
+.h2_red{
+	color: red;
+}
+.certificate{
+	width:80%;
+}
+footer{
+height: 200px;
+	bottom:0;}
+
+/*текст*/
+.model-text{
+	font-family: 'Open Sans', sans-serif;
+}
+
+		.layer{
+		position: absolute;
+		top: 10px;
+		right: 40%;
+ width:400px;
+ height:300px;
+ background:rgba(255,255,255,0.3);
+}
+.layer h2{
+ font:24px;
+ color:blue;
+}
+
+#map{
+position: relative;
+	margin-top: 40px;
+}
+
+footer{
+	background-color: whitesmoke;
+}
+
+.align-right{
+text-align: right;
+}
+
+#buy{
+	background-image: url(../img/russia.png);
+	background-size:cover;
+	opacity: 0.3;
+}
+
+
+#parents.img{
+	width: 100%;
+}
